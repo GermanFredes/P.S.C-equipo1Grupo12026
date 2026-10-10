@@ -19,10 +19,8 @@ export default function Detalle({ elemento , cerrar}) {
       <p><strong>Período:</strong> {elemento.periodo}</p>
       <p><strong>Configuración electrónica:</strong> {elemento.configuracion}</p>
       <p><strong>Electronegatividad:</strong> {elemento.electronegatividad}</p>
-      <p><strong>Punto de fusión:</strong> {elemento.fusion} °C</p>
-      <p><strong>Punto de ebullición:</strong> {elemento.ebullicion} °C</p>
       <p><strong>Densidad:</strong> {elemento.densidad} g/cm³</p>
-      <p><strong>Año de descubrimiento:</strong> {elemento.descubrimiento}</p>
+     
     </aside>
   );
 }
